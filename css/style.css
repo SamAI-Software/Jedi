@@ -1,0 +1,304 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: none;
+}
+body {
+  margin: 0;
+  font-family: "Consolas";
+  background: #272822;
+  color: #f8f8f2;
+}
+.invisible {
+  display: none;
+}
+.functionJedi {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 700px;
+}
+.functionJedi .redBorder {
+  border: 1px solid #f00;
+}
+.functionJedi input {
+  width: 18em;
+  color: #fff;
+  font-size: 100%;
+  font-family: "Consolas";
+  background-color: transparent;
+  border: 0px solid #f00;
+  margin-top: 1px;
+}
+.functionJedi input:focus {
+  border: 0px solid #fff;
+  outline: none;
+}
+.functionJedi .inputYN {
+  height: 1em;
+  width: 2em;
+  margin-left: -0.45em;
+}
+.functionJedi a {
+  text-decoration: none;
+}
+.functionJedi .declar {
+  color: #66d9ef;
+  font-style: italic;
+}
+.functionJedi .funcDeclar {
+  color: #a6e22a;
+}
+.functionJedi .passVar {
+  color: #fd971f;
+  font-style: italic;
+}
+.functionJedi .quote {
+  color: #e6db74;
+}
+.functionJedi .special {
+  color: #f92672;
+}
+.functionJedi .number {
+  color: #ae81ff;
+}
+.typed-cursor {
+  display: none;
+  opacity: 1;
+  -webkit-animation: blink 1.2s infinite;
+  -moz-animation: blink 1.2s infinite;
+  animation: blink 1.2s infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.CV {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  color: #f8f8f2;
+  border: 1px solid #272822;
+  max-width: 700px;
+}
+@media screen and (min-width: 700px) {
+  .CV {
+    border-right: 1px solid #f8f8f2;
+  }
+}
+.CV .comment {
+  color: #75715e;
+}
+.CV .declar {
+  color: #66d9ef;
+}
+.CV .funcDeclar {
+  color: #a6e22a;
+}
+.CV .passVar {
+  color: #fd971f;
+}
+.CV .quote {
+  color: #e6db74;
+}
+.CV .special {
+  color: #f92672;
+}
+.CV .number {
+  color: #ae81ff;
+}
+.CV .active {
+  color: #66d9ef;
+}
+.CV nav {
+  position: fixed;
+  background: #272822;
+  z-index: 100;
+  width: 100%;
+  height: 3em;
+  text-align: center;
+  border-bottom: 1px solid #f8f8f2;
+}
+@media screen and (min-width: 700px) {
+  .CV nav {
+    width: 8em;
+    padding: 2em 1em 0;
+    height: 100%;
+    text-align: left;
+    border: 0 solid #f8f8f2;
+    border-right: 1px solid #f8f8f2;
+  }
+}
+.CV nav img {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .CV nav img {
+    display: block;
+    width: 5.5em;
+    height: 5.5em;
+  }
+}
+.CV nav h4 {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .CV nav h4 {
+    display: block;
+  }
+}
+.CV nav ul {
+  padding: 0;
+}
+.CV nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+@media screen and (min-width: 700px) {
+  .CV nav ul li {
+    display: block;
+  }
+}
+.CV nav ul li a {
+  color: #f8f8f2;
+  text-decoration: none;
+}
+.CV section {
+  margin: 1em;
+  margin-top: 4em;
+}
+@media screen and (min-width: 700px) {
+  .CV section {
+    margin: 1em;
+    margin-top: 1.5em;
+    margin-left: 10em;
+  }
+}
+.CV section a {
+  color: #66d9ef;
+  text-decoration: none;
+}
+.CV #bio {
+  margin-top: 1em;
+}
+.CV #bio #side {
+  margin-bottom: -2.6em;
+}
+.CV #skills #PM {
+  margin-bottom: -1em;
+}
+.CV #contacts {
+  height: 100vh;
+}
+svg {
+  position: relative;
+  margin: 0;
+}
+/* Shows the small ticks on Y axis */
+.axis path,
+.axis line {
+  fill: none;
+/*   stroke: #000; */
+/*   shape-rendering: crispEdges; */
+}
+.x.axis {
+  display: none;
+}
+.y.axis {
+  display: none;
+/*   font-weight: bold; */
+}
+.y.axis path {
+  display: none;
+}
+.bar {
+  fill: none;
+  stroke: #e6db74;
+/*   opacity: 0.5; */
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

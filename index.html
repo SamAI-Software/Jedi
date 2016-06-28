@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jedi</title>
+  <link rel="shortcut icon" href="img/jedi_icon.jpg">
+  <!-- CDN LINKS -->
+  <!-- LOCAL LINKS -->
+  <!-- <link rel="stylesheet" href="./css/animate.css" /> -->
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+<body>
+<!-- &nbsp; for space -->
+<!-- &emsp; for tab (x4) -->
+<div class="functionJedi">
+  <div class="typeIn">
+    <span id="introCover"></span>
+    <div><input id="inputCover" class="invisible" type="text" placeholder="type here and press enter"></div>
+    <span id="introError"></span>
+    <span id="introLooking"></span>
+    <span id="introName"></span>
+    <div><input id="inputName" class="invisible" type="text" placeholder=""></div>
+    <span id="introSalary"></span>
+    <div><input id="inputSalary" class="invisible" type="text" placeholder=""></div>
+    <span id="introFuncJedi"></span>
+    <input id="inputFuncJedi" class="inputYN invisible" type="text" placeholder="">
+    <span id="success"></span>
+    <input id="inputSuccess" class="inputYN invisible" type="text" placeholder="">
+  </div>
+  <div class="typeFrom invisible">
+    <div id="introCoverFrom">
+      <p>
+        <strong>Return of the Jedi</strong>.
+        <br> (interactive CV)
+        <br>
+        <br>
+        <br>
+        <br> Type "start" to begin.
+      </p>
+    </div>
+    <div id="introErrorFrom">
+      <p>
+        error error error error error error
+        <br> error error error error error error
+        <br> error error error error error error
+        <br> error error error error error error
+        <br> error error error error error error
+        <br> error error error error error error
+        <br> error error error
+      </p>
+    </div>
+    <div id="introNameFrom">
+      <p>^1000 Just kidding. ^800</p>
+      <p>You are looking for something... ^500 or somebody. ^500
+      </p>
+      <p>My name is <strong>Yoda</strong> ^700 and I'll help you. ^700
+        <br>What's your name?</p>
+    </div>
+    <div id="introSalaryFrom">
+      <p>
+        Nice to meet you, <span id="testName"></span>! ^1000 Welcome to my home.^500
+      </p>
+      <p>
+        Before we get started^500, I have one last question.^500
+        <br>What's your current salary? (e.g. 60000)
+      </p>
+    </div>
+    <div id="introFuncJediFrom">
+      <p>
+        ^200Great!^300 Now let me write a function^500
+        <br>that will help us find what you want.^1000
+        <br>
+      </p>
+      <p>
+        <span class="declar">function</span> <span class="funcDeclar">findBestEmployee</span>(<span class="passVar">yourName, yourSalary</span>) {
+        <br>
+        <br>&emsp;
+        <span class="declar">var</span> Jedi <span class="special">=</span> {
+        <br>&emsp;&emsp;&emsp; name: <span class="quote">"Sam Aiken"</span>,
+        <br>&emsp;&emsp;&emsp; contact: <a href="http://samai-software.github.io/" target="_blank"><span class="quote">"http://samai-software.github.io/"</span></a>,
+        <br>&emsp;&emsp;&emsp; theForce: {
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; side: <span class="quote">"light"</span>,
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; SE: [<span class="quote">"JS","JQuery","D3.js","C++"</span>],
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; UX: [<span class="quote">"LP","Apps","Games","A/B"</span>],
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; DS: [<span class="quote">"R","GA","Excel"</span>],
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; PM: <span class="quote">"Vision"</span>
+        <br>&emsp;&emsp;&emsp; },
+        <br>&emsp;&emsp;&emsp; hiredBy: {
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; name: yourName,
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; salary: yourSalary
+        <br>&emsp;&emsp;&emsp; },
+        <br>&emsp;&emsp;&emsp;
+        <span class="funcDeclar">special</span>: <span class="declar">function</span>(){
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp; this.hiredBy.salary <span class="special">*=</span> <span class="number">1.5</span>;
+        <br>&emsp;&emsp;&emsp; }
+        <br>&emsp; };
+        <br>
+        <br>&emsp; Jedi.special();
+        <br>
+        <br>&emsp;
+        <span class="special">return</span> <strong>Jedi</strong>;
+        <br> }^2000
+        <br> -------------------------------------------
+        <br> Here it is.^400 Looks pretty solid to me.^500
+        <br> Ready to run this script? y/n:</p>
+    </div>
+    <div id="successFrom">
+      <p>
+        Processing^200.^200.^200.^200.^200.
+      </p>
+      <p>
+        Success!^400 I've found the best candidate for you.^500
+        <br> His name is Sam Aiken.^400
+        <br> Open his profile? y/n:
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="CV invisible">
+  <nav class="invisible">
+    <img src="./img/SamAI.jpg" alt="Photo">
+    <h4>Sam Aiken</h4>
+    <ul>
+      <li><a href="#bio" class="moveTo">Bio</a></li>
+      <li><a href="#skills" class="moveTo">Skills</a></li>
+      <li><a href="#projects" class="moveTo">Projects</a></li>
+      <li><a href="#contacts" class="moveTo">Contacts</a></li>
+    </ul>
+  </nav>
+  <section class="bio invisible" id="bio">
+    <br>
+    <span class="comment">// ------ BIOGRAPHY ------ //</span>
+    <p>Name: <span class="quote">Sam Aiken</span></p>
+    <div id="side">
+      Species: <span class="quote">Jedi</span>
+      <br><span class="comment">// Side</span>
+      <!--       <br>Light: <span class="number">80%</span>
+    <br>Dark: <span class="number">20%</span> -->
+    </div>
+    <p><span class="comment">// Resume</span>
+      <br><a href="http://codepen.io/SamAI-Software/full/ZOLOpN" target="_blank">Interactive</a> (this.codepen)
+      <br><a href="https://youtu.be/8BnO1urXgTY" target="_blank">Video CV</a> (YouTube)
+      <br><a href="https://github.com/SamAI-Software/projects" target="_blank">Text CV</a> (GitHub)
+    </p>
+    <p><span class="comment">// Hired by</span>
+      <br>Your name: <span class="quote" id="userNameBioCV"></span>
+      <br>Your salary: <span class="special">$</span><span class="number" id="userSalaryBioCV"></span> (soon)</p>
+  </section>
+  <section class="skills invisible" id="skills">
+    <br>
+    <span class="comment">// ------ SKILLS -------- //</span>
+    <br>
+    <br>
+    <div id="coding">
+      <span class="comment">// Coding</span>
+    </div>
+
+    <div id="UX">
+      <span class="comment">// User Experience</span>
+    </div>
+
+    <div id="DS">
+      <span class="comment">// Data Science</span>
+    </div>
+
+    <div id="PM">
+      <span class="comment">// Project management</span>
+    </div>
+
+  </section>
+  <section class="projects invisible" id="projects">
+    <article>
+      <br>
+      <span class="comment">// --- CODING PROJECTS --- //</span>
+      <br>
+      <br>
+      <span class="comment">// - 2016 NewCoder Survey - //</span>
+      <br>
+      <br>
+      <a href="http://samai-software.github.io/2016-new-coder-survey/" target="_blank">WEBSITE</a> / <a href="https://github.com/SamAI-Software/2016-new-coder-survey/tree/gh-pages" target="_blank">SOURCE</a>
+      <br>
+      <span class="passVar">(HTML, CSS, JS, JQuery, D3.js, R)</span>
+      <br>
+      <br>
+      <a href="" target="_blank"></a>
+      <span class="quote1">
+        He worked on an <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey" target="_blank">open source project</a>.
+      <br>15K+ people responded all over the world, granting researchers an unprecedented glimpse into how adults are learning to code.
+      <br>
+      <br>
+        His roles:
+      <br>
+        - help to clean database <span class="passVar">(R)</span>
+      <br>&emsp;
+      <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/33#issuecomment-220252460" target="_blank">Issue</a> / <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/29#discussion_r62409469" target="_blank">PR comments</a>
+      <br> - analyze the data <span class="passVar">(R & Excel)</span>
+      <br>&emsp;
+      <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/40" target="_blank">List of interesting facts</a>
+      <br> - help organize the working process <span class="passVar">(PM)</span>
+      <br>&emsp;
+      <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41" target="_blank">List of interesting visualizations</a>
+      <br> - make bar charts and other visualizations <span class="passVar">(D3.js)</span>
+      <br>&emsp;
+      <a href="http://codepen.io/SamAI-Software/full/WwVOdV" target="_blank">ScatterPlots</a> / <a href="http://codepen.io/SamAI-Software/pen/rLayqy" target="_blank">BarCharts</a> / <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/48"
+        target="_blank"><strong>PR</strong></a>
+      <br> - give feedback to other members <span class="passVar">(UX)</span>
+      <br>&emsp;
+      <a href="https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41#issuecomment-220540947" target="_blank">Issue</a> / <a href="https://gitter.im/FreeCodeCamp/DataScience" target="_blank">ChatRoom</a>
+      </span>
+    </article>
+    <article>
+      <br>
+      <span class="comment">// --- Personal Website -- //</span>
+      <br>
+      <br><a href="http://samai-software.github.io/" target="_blank">WEBSITE</a> / <a href="https://github.com/SamAI-Software/samai-software.github.io" target="_blank">SOURCE</a> <span class="passVar">
+    <br>(HTML, CSS, JS, Bootstrap)</span>
+        <span class="quote1">
+    <br><br>Developed personal website from scratch with bootstrap (no templates).
+    <br>It's fully responsive, and Sam used the best practices - "don't set certain common break points for screens (media), instead just scale the width and fix all problems that occur".
+    <br>However, it's desktop-first, because more than 95% visitors use desktop.</span>
+    </article>
+
+  </section>
+  <section class="contacts invisible" id="contacts">
+    <br>
+    <span class="comment">// ------ CONTACTS ------ //</span>
+    <a href="" target="_blank"></a>
+    <p>YouTube: <a href="http://bit.ly/SamAI_YT" target="_blank">bit.ly/SamAI_YT</a></p>
+    <p>Website: <a href="http://samai-software.github.io" target="_blank">samai-software.github.io</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/samaisoftware" target="_blank">linkedin.com/in/samaisoftware</a></p>
+    <p>GitHub: <a href="https://github.com/SamAI-Software" target="_blank">github.com/SamAI-Software</a></p>
+    <p>CodePen: <a href="http://codepen.io/SamAI-Software" target="_blank">codepen.io/SamAI-Software</a></p>
+    <p>FCC: <a href="https://freecodecamp.com/samaiware" target="_blank">freecodecamp.com/samaiware</a>
+    </p>
+    <p>Email: samai.software@gmail.com</p>
+    <span class="comment">// May the force be with you</span>
+  </section>
+
+</div>
+
+  <!-- CDN LINKS -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!-- <script src="https://raw.githubusercontent.com/mattboldt/typed.js/master/dist/typed.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  
+  <!-- LOCAL LINKS -->
+  <!-- // <script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+  <!-- // <script src="./js/d3.min.js" type="text/javascript" charset="utf-8"></script> -->
+  <script src="./js/typed.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
+<!-- 
+function findBestEmployee(yourName, yourSalary) {
+
+  var Jedi = {
+    name: "SamAI",
+    contact: "http://samai-software.github.io/",
+    theForce: {
+      side: "light",
+      SE: ["JS","JQuery","D3.js","C++"],
+      UX: ["LP","Apps","Games","A/B"],
+      DS: ["R","GA","Excel"],
+      PM: "Vision"
+    },
+    hiredBy: {
+      name: yourName,
+      salary: yourSalary
+    },
+    special: function(){
+      this.hiredBy.salary *= 1.5;
+    }
+  };
+
+  Jedi.special();
+
+  return Jedi;
+} -->

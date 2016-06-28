@@ -1,0 +1,5 @@
+Number,coding,codingPerc,UX,UXPerc,DS,DSPerc,PM,PMPerc,side,sidePerc
+1,JS,0.750,A/B testing,0.950,Analysis,0.900,Vision,0.95,Light,0.7
+2,Jquery,0.700,Landing Pages,0.900,Data Viz,0.800,Supervision,0.85,Dark,0.3
+3,D3.js,0.650,Games,0.850,Excel,0.750,Gamification,0.800,,
+4,C++,0.400,Apps,0.750,R,0.600,Web Brutalism,0.75,,
