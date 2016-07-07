@@ -77,6 +77,8 @@ YouTube: http://bit.ly/SamAI_YT
 
 Website: http://samai-software.github.io
 
+LinkedIn: https://linkedin.com/in/samaisoftware
+
 GitHub: https://github.com/SamAI-Software
 
 CodePen: http://codepen.io/SamAI-Software
