@@ -10,7 +10,9 @@
    theForce: 
 ```
 
-Hey hey guys!
+``` diff
++ Hey hey guys!
+```
 
 Firstly, make sure to check my [interactive CV](http://bit.ly/Jedi_CP) (this.codepen) and also watch my [short video CV](https://youtu.be/8BnO1urXgTY), because it has lots of info about my projects, skills and experience.
 
@@ -33,6 +35,7 @@ My roles:
 
 ##### // -------------- Personal Website -------------- //
 [**Website**](http://samai-software.github.io/) / [**Source code**](https://github.com/SamAI-Software/samai-software.github.io) (HTML, CSS, JS, Bootstrap)
+
 
 I've developed my personal website from scratch (no templates) using a bit of bootstrap.
 
@@ -66,8 +69,10 @@ The idea was to create a very fancy and interesting UI to push my CSS skills for
 
 The goal was to create a calculator that won't have any bugs unlike most others and will have a similar logic to Windows Standart Calculator. For that I've made a [check-list to test calculators](https://github.com/SamAI-Software/test-ur-calc).
 
-Warning: it's one of my first codes, so it's very messy. But it does the job.
-Btw, try to bug it and send me a "User console", which is part of UI.
+```diff
+- Warning: it's one of my first codes, so it's very messy. But it does the job.
+- Btw, try to bug it and send me a "User console", which is a part of UI.
+```
 
 ***
 
