@@ -4,7 +4,7 @@
 
 ***
 
-```
+```js
 (function main() {
   var Jedi = {
    theForce: 
@@ -93,7 +93,7 @@ Twitter: https://twitter.com/SamAI_Software
 FCC: https://freecodecamp.com/samai-software
 
 Email: samai.software@gmail.com
-```
+```js
   };
   
   return Jedi;
