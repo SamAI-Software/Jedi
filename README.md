@@ -22,16 +22,16 @@ Firstly, make sure to check my [interactive CV](http://bit.ly/Jedi_CP) (this.cod
 
 ##### // ---------- 2016 New Coder Survey --------- //
 
-[**Website**](http://samai-software.github.io/2016-new-coder-survey/) / [**Source code**](https://github.com/SamAI-Software/2016-new-coder-survey/tree/gh-pages) (HTML, CSS, JS, JQuery, D3.js, R)
+[**Website**](https://www.freecodecamp.com/2016-new-coder-survey/) / [**Source code**](https://github.com/FreeCodeCamp/2016-new-coder-survey) (HTML, CSS, JS, JQuery, D3.js, R)
 
 For a few months I've been working on this [open source project](https://github.com/FreeCodeCamp/2016-new-coder-survey). 15K+ people responded all over the world, granting researchers an unprecedented glimpse into how adults are learning to code.
 
 My roles:
+- organize and manage the working process (**PM**) [**List of interesting visualizations**](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41)
 - help to clean database (**R**) [Issue](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/33#issuecomment-220252460) / [PR comments](https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/29#discussion_r62409469)
 - analyze the data (**R** & **Excel**) [List of interesting facts](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/40)
-- help organize the working process (**PM**) [List of interesting visualizations](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41)
-- make bar charts and other visualizations (**D3.js**) [ScatterPlots](http://codepen.io/SamAI-Software/full/WwVOdV) / [BarCharts](http://codepen.io/SamAI-Software/pen/rLayqy) / [**PR**](https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/48)
-- give feedback to other members (**UX**) [Issue](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41#issuecomment-220540947) / [ChatRoom](https://gitter.im/FreeCodeCamp/DataScience)
+- make bar charts and other visualizations (**D3.js**) [ScatterPlots](http://codepen.io/SamAI-Software/full/WwVOdV) / [BarCharts](http://codepen.io/SamAI-Software/pen/rLayqy) / [**PR**](https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/48) / [**PR**](https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/53)
+- give feedback to other members (**UX**) [Issue](https://github.com/FreeCodeCamp/2016-new-coder-survey/issues/41#issuecomment-220540947) / [**PR comments**](https://github.com/FreeCodeCamp/2016-new-coder-survey/pull/54) /  [ChatRoom](https://gitter.im/FreeCodeCamp/DataScience)
 
 ##### // -------------- Personal Website -------------- //
 [**Website**](http://samai-software.github.io/) / [**Source code**](https://github.com/SamAI-Software/samai-software.github.io) (HTML, CSS, JS, Bootstrap)
