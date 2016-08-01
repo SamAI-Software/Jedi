@@ -14,7 +14,7 @@
 + Hey hey guys!
 ```
 
-Firstly, make sure to check my [interactive CV](http://bit.ly/Jedi_CP) (this.codepen) and also watch my [short video CV](https://youtu.be/8BnO1urXgTY), because it has lots of info about my projects, skills and experience.
+Firstly, make sure to visit my [interactive CV with Yoda](http://bit.ly/Jedi_CP) (this.codepen) and also watch my [short video CV](https://youtu.be/8BnO1urXgTY), because it has lots of info about my projects, skills and experiences. And finally, you can checkout my [.pdf resume](https://github.com/SamAI-Software/Jedi/blob/master/SamAiken_resume.pdf).
 
 ***
 
