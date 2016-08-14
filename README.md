@@ -86,6 +86,8 @@ LinkedIn: https://linkedin.com/in/samaisoftware
 
 GitHub: https://github.com/SamAI-Software
 
+Medium: https://medium.com/@SamAI_Software
+
 CodePen: http://codepen.io/SamAI-Software
 
 Twitter: https://twitter.com/SamAI_Software
